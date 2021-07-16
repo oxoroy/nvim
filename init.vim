@@ -57,6 +57,8 @@ if exists("g:vscode")
 
     noremap <Space><Space>ts :call VSCodeNotify("workbench.action.toggleSidebarVisibility")<CR>
     noremap <Space><Space>tt :call VSCodeNotify("workbench.action.terminal.toggleTerminal")<CR>
+    
+    noremap <Space>f :call VSCodeNotify("editor.action.formatDocument")<CR>
 endif
 
 "" search and replace under the cursor
