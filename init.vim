@@ -38,11 +38,6 @@ vmap <Space>b <Plug>(easymotion-b)
 nmap <Space>w <Plug>(easymotion-w)
 vmap <Space>w <Plug>(easymotion-w)
 
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
-
 noremap nh :nohlsearch<CR>
 
 if exists("g:vscode")
